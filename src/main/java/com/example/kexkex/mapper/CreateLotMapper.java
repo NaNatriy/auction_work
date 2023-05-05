@@ -13,14 +13,4 @@ public class CreateLotMapper {
         lot.setBidPrice(createdLotDTO.getBidPrice());
         return lot;
     }
-
-    public static CreateLotDTO toDTO(Lot lot){
-        CreateLotDTO dto = new CreateLotDTO();
-        dto.setId(lot.getId());
-        dto.setLotName(lot.getLotName());
-        dto.setDescription(lot.getDescription());
-        dto.setStartPrice(lot.getStartPrice());
-        dto.setBidPrice(lot.getBidPrice());
-        return dto;
-    }
 }

@@ -16,7 +16,4 @@ public class FullLotDTO {
     private Integer currentPrice;
     private BidToLotDTO lastBid;
 
-    public FullLotDTO(Long id, String lotName, String description, LotStatus status, Integer startPrice, Integer bidPrice) {
-    }
-
 }
