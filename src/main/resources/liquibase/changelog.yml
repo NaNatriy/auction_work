@@ -1,0 +1,7 @@
+databaseChangeLog:
+
+  - include:
+      file: liquibase/changeset/createLot.sql
+  - include:
+      file: liquibase/changeset/createBid.sql
+
